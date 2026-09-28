@@ -334,9 +334,11 @@ FEATURES
 }
 
 .book__img {
-  max-height: 380px;
+  height: 380px;
   transition: all 300ms ease;
   cursor: no-drop;
+  object-fit: contain;
+  object-position: left;
 }
 
 .book__img--wrapper {
@@ -353,6 +355,7 @@ FEATURES
 .book__title {
   font-size: 20px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .book__title:hover {
@@ -363,12 +366,18 @@ FEATURES
 .book__ratings {
   margin-bottom: 8px;
   color: #fabf2a;
+  text-align: center;
+}
+
+.book__price {
+  text-align: center;
 }
 
 .book__price--normal {
   text-decoration: line-through;
   padding-right: 6px;
   color: #bfbfbf;
+  text-align: center;
 }
 
 /* 
