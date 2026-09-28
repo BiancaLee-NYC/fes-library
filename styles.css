@@ -460,3 +460,11 @@ footer {
     margin-bottom: 24px;
   }
 }
+
+/* iphone  */
+
+@media (max-width: 440px) {
+  .book {
+    padding: 10px;
+  }
+}
